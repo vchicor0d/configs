@@ -10,7 +10,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod4
-set $term termite
+set $term i3-sensible-terminal
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -172,8 +172,6 @@ bar {
 }
 
 exec --no-startup-id nitrogen --restore
-exec slack
-exec teams-for-linux
 exec keepassxc
 
 bindsym $mod+Shift+f exec $term -e ranger
@@ -184,5 +182,4 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 10 && notify-send "Brillo: $(
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5%
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
 bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle
-exec xrandr --output HDMI1 --auto --left-of eDP1
-exec xrandr --output DP3 --auto --right-of eDP1
+exec xrandr --output DVI1 --auto --right-of LVDS1

@@ -1,0 +1,41 @@
+app-i18n/ibus gtk
+
+# required by kde-frameworks/kdnssd-5.46.0::gentoo[zeroconf]
+# required by kde-apps/kio-extras-17.12.3::gentoo
+# required by kde-plasma/plasma-workspace-5.12.5::gentoo
+# required by virtual/notification-daemon-0::gentoo[kde]
+# required by x11-libs/libnotify-0.7.7::gentoo
+# required by media-video/vlc-3.0.2-r1::gentoo[libnotify]
+# required by media-libs/phonon-vlc-0.10.1::gentoo
+# required by media-libs/phonon-4.10.1::gentoo[vlc]
+# required by kde-frameworks/khtml-5.46.0::gentoo
+>=net-dns/avahi-0.7-r1 mdnsresponder-compat
+# required by app-emulation/wine-vanilla-2.0.3::gentoo[samba]
+# required by virtual/wine-0-r5::gentoo
+# required by wine (argument)
+>=net-fs/samba-4.5.16 winbind
+# required by www-client/firefox-52.8.1::gentoo
+# required by firefox (argument)
+>=dev-lang/python-2.7.14-r1:2.7 sqlite
+# required by app-office/libreoffice-6.0.3.2::gentoo
+# required by libreoffice (argument)
+>=media-libs/harfbuzz-1.7.6 icu
+
+# required by dev-java/netbeans-platform-8.2::gentoo
+# required by dev-java/netbeans-apisupport-8.2::gentoo
+# required by dev-util/netbeans-8.2::gentoo[netbeans_modules_apisupport]
+# required by netbeans (argument)
+>=dev-java/oracle-jdk-bin-1.8.0.172 javafx
+# required by dev-java/netbeans-platform-8.2::gentoo
+# required by dev-java/netbeans-apisupport-8.2::gentoo
+# required by dev-util/netbeans-8.2::gentoo[netbeans_modules_apisupport]
+# required by netbeans (argument)
+>=dev-java/junit-4.12-r1 source
+# required by dev-java/netbeans-platform-8.2::gentoo
+# required by dev-java/netbeans-apisupport-8.2::gentoo
+# required by dev-util/netbeans-8.2::gentoo[netbeans_modules_apisupport]
+# required by netbeans (argument)
+>=dev-java/swing-layout-1.0.4-r1 source
+# required by app-office/calligra-3.1.0-r2::gentoo[calligra_features_karbon]
+# required by calligra (argument)
+>=media-gfx/pstoedit-3.70-r1 plotutils

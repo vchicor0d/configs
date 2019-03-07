@@ -1,0 +1,28 @@
+# These settings were set by the catalyst build script that automatically
+# built this stage.
+# Please consult /usr/share/portage/config/make.conf.example for a more
+# detailed example.
+CFLAGS="-march=native -mtune=prescott -O2 -fomit-frame-pointer -pipe"
+CXXFLAGS=${CFLAGS}
+CPU_FLAGS="mmx mmxext sse sse2 sse3"
+CPU_FLAGS_X86=${CPU_FLAGS}
+MAKEOPTS="-j3"
+
+USE="-gtk -gnome appstream qt qt4 qt5 qml plasma dvd cdr ibus alsa pulseaudio sound wayland xscreensaver egl gles gles1 gles2 opengl dri X bluetooth mtp phonon samba dbus cups scanner gphoto2 jpeg gif openexr exif tiff svg png webp jpeg2k gif ogg vorbis mp3 mpeg theora xine multimedia avahi zeroconf v4l printsupport"
+ACCEPT_LICENSE="*"
+VIDEO_CARDS="intel i915 vesa vga"
+LINGUAS="es es_ES en"
+L10N="es es-ES en"
+LLVM_TARGETS="X86"
+ACCEPT_KEYWORDS="~X86"
+
+# NOTE: This stage was built with the bindist Use flag enabled
+PORTDIR="/usr/portage"
+DISTDIR="/usr/portage/distfiles"
+PKGDIR="/usr/portage/packages"
+
+# This sets the language of build output to English.
+# Please keep this setting intact when reporting bugs.
+LC_MESSAGES=C
+
+GENTOO_MIRRORS="http://gentoo.mirrors.ovh.net/gentoo-distfiles/ rsync://mirror.netcologne.de/gentoo/ rsync://ftp.heanet.ie/pub/gentoo/ rsync://ftp.rnl.tecnico.ulisboa.pt/pub/gentoo/gentoo-distfiles/"

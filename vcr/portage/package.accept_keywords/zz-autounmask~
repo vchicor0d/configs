@@ -1,0 +1,27 @@
+# package.accept_keywords# required by media-video/vlc-3.0.2-r1::gentoo[dbus]
+# required by media-libs/phonon-vlc-0.10.1::gentoo
+# required by media-libs/phonon-4.10.1::gentoo[vlc]
+# required by kde-frameworks/khtml-5.46.0::gentoo
+# required by kde-apps/kio-extras-17.12.3::gentoo[man]
+# required by kde-plasma/plasma-workspace-5.12.5::gentoo
+# required by virtual/notification-daemon-0::gentoo[kde]
+# required by x11-libs/libnotify-0.7.7::gentoo
+# required by app-i18n/ibus-1.5.16::gentoo[libnotify]
+# required by dev-qt/qtgui-5.9.4-r3::gentoo[ibus]
+# required by kde-frameworks/kcmutils-5.46.0::gentoo
+# required by kde-plasma/breeze-5.12.5::gentoo
+# required by kde-plasma/kwin-5.12.5::gentoo
+=sys-apps/dbus-1.12.8 ~x86
+# required by sys-apps/flatpak-0.99.1::flatpak-overlay
+# required by flatpak (argument)
+=sys-fs/libostree-2018.5 **
+# required by flatpak (argument)
+=sys-apps/flatpak-0.99.1 **
+# required by flatpak-builder (argument)
+=dev-util/flatpak-builder-0.99.1 **
+# required by =libostree-2018.5 (argument)
+=sys-fs/libostree-2018.5 **
+# required by sys-apps/flatpak-0.99.1::flatpak-overlay
+# required by dev-util/flatpak-builder-0.99.1::flatpak-overlay
+# required by flatpak-builder (argument)
+=sys-fs/libostree-2018.6 **

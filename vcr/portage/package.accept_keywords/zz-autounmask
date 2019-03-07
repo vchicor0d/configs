@@ -1,0 +1,111 @@
+# package.accept_keywords# required by media-video/vlc-3.0.2-r1::gentoo[dbus]
+# required by media-libs/phonon-vlc-0.10.1::gentoo
+# required by media-libs/phonon-4.10.1::gentoo[vlc]
+# required by kde-frameworks/khtml-5.46.0::gentoo
+# required by kde-apps/kio-extras-17.12.3::gentoo[man]
+# required by kde-plasma/plasma-workspace-5.12.5::gentoo
+# required by virtual/notification-daemon-0::gentoo[kde]
+# required by x11-libs/libnotify-0.7.7::gentoo
+# required by app-i18n/ibus-1.5.16::gentoo[libnotify]
+# required by dev-qt/qtgui-5.9.4-r3::gentoo[ibus]
+# required by kde-frameworks/kcmutils-5.46.0::gentoo
+# required by kde-plasma/breeze-5.12.5::gentoo
+# required by kde-plasma/kwin-5.12.5::gentoo
+=sys-apps/dbus-1.12.8 ~x86
+# required by sys-apps/flatpak-0.99.1::flatpak-overlay
+# required by flatpak (argument)
+=sys-fs/libostree-2018.5 **
+# required by flatpak (argument)
+=sys-apps/flatpak-0.10.4 **
+# required by flatpak-builder (argument)
+=dev-util/flatpak-builder-0.99.1 **
+# required by =libostree-2018.5 (argument)
+=sys-fs/libostree-2018.5 **
+# required by games-util/steam-meta-0-r20160817::steam-overlay
+# required by steam-meta (argument)
+=games-util/steam-client-meta-0-r20180201 ~x86
+# required by steam-meta (argument)
+=games-util/steam-meta-0-r20160817 ~x86
+# required by games-util/steam-meta-0-r20160817::steam-overlay
+# required by steam-meta (argument)
+=games-util/steam-launcher-1.0.0.54-r4 ~x86
+# required by games-util/steam-meta-0-r20160817::steam-overlay[steamruntime]
+# required by steam-meta (argument)
+=games-util/steam-games-meta-0-r20180619 ~x86
+# required by icedtea (argument)
+=dev-java/icedtea-3.8.0 ~x86
+# required by dev-util/netbeans-8.2::gentoo[netbeans_modules_javafx]
+# required by netbeans (argument)
+=dev-java/netbeans-javafx-8.2 ~x86
+# required by netbeans (argument)
+=dev-util/netbeans-8.2 ~x86
+# required by dev-java/netbeans-profiler-8.2::gentoo
+# required by dev-util/netbeans-8.2::gentoo[netbeans_modules_profiler]
+# required by netbeans (argument)
+=dev-java/netbeans-extide-8.2 ~x86
+# required by dev-java/netbeans-ide-8.2-r1::gentoo
+# required by dev-java/netbeans-apisupport-8.2::gentoo
+# required by dev-util/netbeans-8.2::gentoo[netbeans_modules_apisupport]
+# required by netbeans (argument)
+=dev-java/netbeans-platform-8.2 ~x86
+# required by dev-java/netbeans-javafx-8.2::gentoo
+# required by dev-util/netbeans-8.2::gentoo[netbeans_modules_javafx]
+# required by netbeans (argument)
+=dev-java/netbeans-java-8.2-r1 ~x86
+# required by dev-java/netbeans-java-8.2-r1::gentoo
+# required by dev-java/netbeans-apisupport-8.2::gentoo
+# required by dev-util/netbeans-8.2::gentoo[netbeans_modules_apisupport]
+# required by netbeans (argument)
+=dev-java/netbeans-harness-8.2 ~x86
+# required by dev-util/netbeans-8.2::gentoo[netbeans_modules_apisupport]
+# required by netbeans (argument)
+=dev-java/netbeans-apisupport-8.2 ~x86
+# required by dev-util/netbeans-8.2::gentoo
+# required by netbeans (argument)
+=dev-java/netbeans-nb-8.2 ~x86
+# required by dev-java/netbeans-java-8.2-r1::gentoo
+# required by dev-java/netbeans-apisupport-8.2::gentoo
+# required by dev-util/netbeans-8.2::gentoo[netbeans_modules_apisupport]
+# required by netbeans (argument)
+=dev-java/netbeans-websvccommon-8.2 ~x86
+# required by dev-util/netbeans-8.2::gentoo[netbeans_modules_profiler]
+# required by netbeans (argument)
+=dev-java/netbeans-profiler-8.2 ~x86
+# required by dev-java/netbeans-javafx-8.2::gentoo
+# required by dev-util/netbeans-8.2::gentoo[netbeans_modules_javafx]
+# required by netbeans (argument)
+=dev-java/netbeans-ide-8.2-r1 ~x86
+
+# required by idea (argument)
+=dev-util/idea-2018.1.5.181.5281 ~x86
+# required by idea-ultimate (argument)
+=dev-util/idea-ultimate-2018.1.0.181.4203.550 ~x86
+# required by insync-bin (argument)
+=app-backup/insync-bin-1.3.8 ~x86
+# required by playonlinux (argument)
+=app-emulation/playonlinux-4.2.12 ~x86
+# required by chromium (argument)
+=www-client/chromium-68.0.3440.25 ~x86
+# required by freeciv (argument)
+=games-strategy/freeciv-2.5.11 ~x86
+# required by games-strategy/0ad-0.0.23_alpha::gentoo
+# required by 0ad (argument)
+=games-strategy/0ad-data-0.0.23_alpha ~x86
+# required by games-strategy/0ad-0.0.23_alpha::gentoo[lobby]
+# required by 0ad (argument)
+=net-libs/gloox-1.0.21 ~x86
+# required by 0ad (argument)
+=games-strategy/0ad-0.0.23_alpha ~x86
+# required by krita (argument)
+=media-gfx/krita-4.0.3 ~x86
+# required by bluez-alsa (argument)
+=media-sound/bluez-alsa-1.2.0 ~x86
+# required by hfsprogs (argument)
+=sys-fs/hfsprogs-332.25 ~x86
+# required by gentoo-sources:4.17.2 (argument)
+=sys-kernel/gentoo-sources-4.17.2 ~x86
+# required by games-strategy/openage-9999::sft
+# required by openage (argument)
+=dev-libs/nyan-9999 **
+# required by openage (argument)
+=games-strategy/openage-9999 **

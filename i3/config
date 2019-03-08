@@ -173,6 +173,9 @@ bar {
 
 exec --no-startup-id nitrogen --restore
 exec keepassxc
+exec teams-for-linux
+exec slack
+exec syncthing -no-browser
 
 bindsym $mod+Shift+f exec $term -e ranger
 bindsym $mod+b exec i3lock -p win -t -e -f -i /home/victor/Imágenes/wxp.png

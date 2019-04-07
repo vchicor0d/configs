@@ -183,3 +183,4 @@ bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5%
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
 bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle
 exec xrandr --output DVI1 --auto --right-of LVDS1
+exec setxkbmap -layout es -option lv3:rwin_switch

@@ -1,0 +1,127 @@
+0ad
+Clementine
+GIMP
+Insync
+KVIrc
+LyX
+OpenRCT2
+QtProject.conf Trolltech.conf
+Popcorn-Time
+VirtualBox
+VirtualBoxrc
+akonadi
+akonadi_akonotes_resource_0rc akonadi_indexing_agentrc akonadi_maildir_resource_0rc
+akregatorrc
+arkrc
+autostart
+baloofileinformationrc baloofilerc
+calligrarc calligrasheetsrc calligrawordsrc
+darktable/
+dconf
+dolphinrc
+dragonplayerrc
+drkonqirc
+emaildefaults
+emailidentities
+exercism/
+falkon
+filetypesrc
+fontconfig
+freeciv-qt-client.ini
+gconf
+gtk-2.0 gtk-3.0
+gtkrc gtkrc-2.0
+gwenviewrc
+htop
+kaccessrc
+kaccountsrc
+kactivitymanagerdrc kactivitymanagerd-statsrc kactivitymanagerd-switcher
+kapmanrc
+katemetainfos katepartrc katerc kateschemarc katevirc
+kbouncerc
+kcalcrc
+kcminputrc
+kcmshell5rc
+kconf_updaterc
+kdebugrc
+kdeconnect
+kded5rc kded_device_automounterrc
+kdeglobals
+kdenliverc
+kdenliverc
+kdialogrc
+keepassxc
+kglobalshortcutsrc
+kgoldrunnerrc
+kgpgrc
+khelpcenterrc
+khotkeysrc
+khotkeysrc
+kiorc
+kmahjonggrc
+kmail2rc
+kminesrc
+kmixctrlrc kmixrc
+kolourpaintrc
+konsolerc
+kontactrc
+konversationrc
+kopeterc
+kpatrc
+kprivacyrc
+krfbrc
+krdcrc
+kritadisplayrc kritarc
+krunnerrc
+kscreenlockerrc
+kservicemenurc
+kshisenrc
+ksmserverrc
+ksysguardrc
+ktelepathy-avatarsrc ktelepathy.notifyrc ktelepathyrc
+ktimezonedrc
+ktorrent_infowidgetrc ktorrentrc
+kvirc
+kwalletrc
+kwaverc
+kwinr
+kwinrc kwinrulesrc
+kxkbrc
+latte lattedockrc
+libaccounts-glib
+libreoffice
+lo_kde5filepickerrc.lock
+lo_kde5filepickerrc.lock.rmlock
+lutris
+lxqt
+mailtransports
+menus
+mimeapps.list
+nitrogen
+okularpartrc okularrc
+openbox
+openmw openmw-wizardrc
+otter
+pcmanfm-qt
+phishingurlrc
+plasma-localerc plasma-nm plasma-org.kde.plasma.desktop-appletsrc plasmashellrc plasmavaultrc
+powermanagementprofilesrc
+pulse
+scummvm
+session
+signond
+specialmailcollectionsrc
+spotify
+startupconfig startupconfigfiles startupconfigkeys
+systemd
+syncthing
+systemsettingsrc
+trashrc
+unity3d
+user-dirs.dirs user-dirs.locale
+vivaldi
+vlc
+vlcrc
+webengineurlinterceptoradblockrc
+wesnoth/
+yakuakerc
